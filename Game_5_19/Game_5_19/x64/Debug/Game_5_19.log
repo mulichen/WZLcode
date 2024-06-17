@@ -1,0 +1,8 @@
+﻿  game.c
+  test.c
+  正在生成代码...
+D:\code\2024\xue\Game_5_19\Game_5_19\test.c(8,1): warning C4716: “meun”: 必须返回一个值
+D:\code\2024\xue\Game_5_19\Game_5_19\test.c(45,1): warning C4716: “game”: 必须返回一个值
+D:\code\2024\xue\Game_5_19\Game_5_19\game.c(89,1): warning C4716: “computermove”: 必须返回一个值
+D:\code\2024\xue\Game_5_19\Game_5_19\game.c(72,1): warning C4716: “playermove”: 必须返回一个值
+  Game_5_19.vcxproj -> D:\code\2024\xue\Game_5_19\x64\Debug\Game_5_19.exe
