@@ -1,0 +1,6 @@
+﻿  main.c
+D:\code\2024\xue\Project2014_7_8\Project2014_7_8\main.c(14,11): warning C4090: “=”: 不同的“const”限定符
+D:\code\2024\xue\Project2014_7_8\Project2014_7_8\main.c(7,8): warning C4090: “初始化”: 不同的“const”限定符
+D:\code\2024\xue\Project2014_7_8\Project2014_7_8\main.c(8,8): warning C4090: “初始化”: 不同的“const”限定符
+D:\code\2024\xue\Project2014_7_8\Project2014_7_8\main.c(33,11): warning C4047: “==”:“int”与“void *”的间接级别不同
+  Project2014_7_8.vcxproj -> D:\code\2024\xue\Project2014_7_8\x64\Debug\Project2014_7_8.exe
