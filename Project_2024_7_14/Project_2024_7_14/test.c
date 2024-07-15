@@ -14,7 +14,7 @@ int main()
 	int iput = 0;
 	contact con;
 	Jsuo();
-
+	initcontact(&con);
 	do
 	{
 		printf("请选择\n");
@@ -22,20 +22,22 @@ int main()
 		switch(iput)
 		{
 		    case 1:
-				initcontact(&con);
 				addcontact(&con);
 			    break;
 			case 2:
 				delcontact(&con);
 				break;
 			case 3:
+				seacontact(&con);
 				break;
 			case 4:
+				modcontact(&con);
 				break;
 			case 5:
-
+				showcontact(&con);
 				break;
 			case 6:
+				sortcontact(&con);
 				break;
 			case 0:
 				printf("退出成功\n");

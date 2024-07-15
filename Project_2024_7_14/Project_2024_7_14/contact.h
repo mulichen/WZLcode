@@ -1,6 +1,7 @@
 #pragma once
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 
 //¿‡–Õ…˘√˜
 typedef struct peoinfo
@@ -20,6 +21,14 @@ typedef struct contact
 void addcontact(contact* con);
 void initcontact(contact* con);
 void delcontact(contact* con);
+void seacontact(contact* con);
+void modcontact(contact* con);
+void showcontact(contact* con);
+void sortcontact(contact* con);
+
+
+
+
 
 
 

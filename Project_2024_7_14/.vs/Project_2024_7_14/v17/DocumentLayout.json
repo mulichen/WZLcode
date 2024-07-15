@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\code\\2024\\xue\\Project_2024_7_14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|solutionrelative:Project_2024_7_14\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|solutionrelative:Project_2024_7_14\\contact.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|solutionrelative:Project_2024_7_14\\contact.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EBBBBC6C-49F2-435B-9285-727038476207}|Project_2024_7_14\\Project_2024_7_14.vcxproj|solutionrelative:Project_2024_7_14\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,41 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "contact.h",
-              "DocumentMoniker": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.h",
-              "RelativeDocumentMoniker": "Project_2024_7_14\\contact.h",
-              "ToolTip": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.h",
-              "RelativeToolTip": "Project_2024_7_14\\contact.h",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-14T00:52:22.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "contact.c",
               "DocumentMoniker": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.c",
               "RelativeDocumentMoniker": "Project_2024_7_14\\contact.c",
               "ToolTip": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.c",
               "RelativeToolTip": "Project_2024_7_14\\contact.c",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAAADAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAIUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-07-14T00:52:08.39Z"
+              "WhenOpened": "2024-07-15T00:06:36.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "contact.h",
+              "DocumentMoniker": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.h",
+              "RelativeDocumentMoniker": "Project_2024_7_14\\contact.h",
+              "ToolTip": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\contact.h",
+              "RelativeToolTip": "Project_2024_7_14\\contact.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-14T00:52:22.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "test.c",
               "DocumentMoniker": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\test.c",
               "RelativeDocumentMoniker": "Project_2024_7_14\\test.c",
               "ToolTip": "D:\\code\\2024\\xue\\Project_2024_7_14\\Project_2024_7_14\\test.c",
               "RelativeToolTip": "Project_2024_7_14\\test.c",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-07-14T00:50:58.722Z",
               "EditorCaption": ""
