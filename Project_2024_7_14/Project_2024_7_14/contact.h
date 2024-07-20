@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<errno.h>
 
 //¿‡–Õ…˘√˜
 typedef struct peoinfo
@@ -25,6 +26,9 @@ void seacontact(contact* con);
 void modcontact(contact* con);
 void showcontact(contact* con);
 void sortcontact(contact* con);
+void read(contact* con);
+void write(contact* con);
+
 
 
 

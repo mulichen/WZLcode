@@ -15,6 +15,8 @@ int main()
 	contact con;
 	Jsuo();
 	initcontact(&con);
+	//write(&con);
+	read(&con);
 	do
 	{
 		printf("请选择\n");
@@ -40,6 +42,7 @@ int main()
 				sortcontact(&con);
 				break;
 			case 0:
+				write(&con);
 				printf("退出成功\n");
 				break;
 			default:

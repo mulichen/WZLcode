@@ -1,5 +1,37 @@
 #define  _CRT_SECURE_NO_WARNINGS
 #include "contact.h"
+void read(contact* con)
+{
+	FILE* pf = fopen("test.txt", "rb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return;
+	}
+	peoinfo tmp = {0};
+	while (fread(&tmp, sizeof(peoinfo), 1, pf) == 1)
+	{
+		con->data[con->count] = tmp;
+		con->count++;
+	}
+	fclose(pf);
+	pf = NULL;
+}
+void write(contact* con)
+{
+	FILE* pf = fopen("test.txt", "wb");
+	if (pf == NULL)
+	{
+		perror("fopen");
+		return;
+	}
+	for (int i = 0; i < con->count; i++)
+	{
+		fwrite(con->data+i, sizeof(peoinfo), 1, pf);
+	}
+	fclose(pf);
+	pf = NULL;
+}
 void initcontact(contact* con)
 {
 	con->count = 0;
