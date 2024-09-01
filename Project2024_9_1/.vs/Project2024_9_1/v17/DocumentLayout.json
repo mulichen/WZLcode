@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\2024\\xue\\Project2024_9_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C54B31F8-1488-41CD-8496-D12E158EA9B4}|Project2024_9_1\\Project2024_9_1.vcxproj|D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C54B31F8-1488-41CD-8496-D12E158EA9B4}|Project2024_9_1\\Project2024_9_1.vcxproj|solutionrelative:Project2024_9_1\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54B31F8-1488-41CD-8496-D12E158EA9B4}|Project2024_9_1\\Project2024_9_1.vcxproj|D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C54B31F8-1488-41CD-8496-D12E158EA9B4}|Project2024_9_1\\Project2024_9_1.vcxproj|solutionrelative:Project2024_9_1\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.h",
+              "DocumentMoniker": "D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.h",
+              "RelativeDocumentMoniker": "Project2024_9_1\\main.h",
+              "ToolTip": "D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.h",
+              "RelativeToolTip": "Project2024_9_1\\main.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-01T09:12:17.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.cpp",
+              "RelativeDocumentMoniker": "Project2024_9_1\\main.cpp",
+              "ToolTip": "D:\\code\\2024\\xue\\Project2024_9_1\\Project2024_9_1\\main.cpp",
+              "RelativeToolTip": "Project2024_9_1\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-01T08:55:47.084Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
