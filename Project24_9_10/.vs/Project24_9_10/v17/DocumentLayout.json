@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\code\\2024\\xue\\Project24_9_10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{064F802B-6DAD-4A84-9326-7B3C5B03D92F}|Project24_9_10\\Project24_9_10.vcxproj|D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\myarr.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{064F802B-6DAD-4A84-9326-7B3C5B03D92F}|Project24_9_10\\Project24_9_10.vcxproj|solutionrelative:Project24_9_10\\myarr.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{064F802B-6DAD-4A84-9326-7B3C5B03D92F}|Project24_9_10\\Project24_9_10.vcxproj|D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{064F802B-6DAD-4A84-9326-7B3C5B03D92F}|Project24_9_10\\Project24_9_10.vcxproj|solutionrelative:Project24_9_10\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\test.cpp",
+              "RelativeDocumentMoniker": "Project24_9_10\\test.cpp",
+              "ToolTip": "D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\test.cpp",
+              "RelativeToolTip": "Project24_9_10\\test.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-10T06:15:22.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "myarr.hpp",
+              "DocumentMoniker": "D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\myarr.hpp",
+              "RelativeDocumentMoniker": "Project24_9_10\\myarr.hpp",
+              "ToolTip": "D:\\code\\2024\\xue\\Project24_9_10\\Project24_9_10\\myarr.hpp",
+              "RelativeToolTip": "Project24_9_10\\myarr.hpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-10T06:15:08.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
