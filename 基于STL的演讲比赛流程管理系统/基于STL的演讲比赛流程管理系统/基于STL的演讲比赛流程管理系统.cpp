@@ -20,8 +20,10 @@ int main()
 			sm.stackspech();
 			break;
 		case 2:
+			sm.showrecord();
 			break;
 		case 3:
+			sm.claearecord();
 			break;
 		case 0:
 			cout << "欢迎下次使用" << endl;
