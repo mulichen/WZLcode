@@ -14,7 +14,10 @@ void menu();
 void loginIn(string filename,int type);
 
 //管理员模块
-void  manager(Identity* manager);
+void  manager(Identity* &manager);
+
+//学生模块
+void student(Identity* &student);
 
 
 

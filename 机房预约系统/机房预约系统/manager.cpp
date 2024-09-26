@@ -9,6 +9,20 @@ Manager::Manager(string name, string pwd)
 	this->m_name = name;
 	this->m_pwd = pwd;
 	intvector();
+	ifstream ifs(COMPUTER_FILE,ios::in);
+	if (!ifs.is_open())
+	{
+		cout << "文件打开失败" << endl;
+		ifs.close();
+	}
+	int id = 0;
+	int num = 0;
+	Computer C;
+	while (ifs >>C.m_id && ifs >>C.m_num)
+	{
+		vc.push_back(C);
+	}
+	ifs.close();
 }
 Manager::~Manager()
 {
@@ -93,20 +107,53 @@ void Manager::AddPerson()
 }
 
 //查看账号
+void ps(Student S)
+{
+	cout << "学生编号" << S.m_Id<<"姓名"<<S.m_name<<"密码" <<S.m_pwd<< endl;
+}
+void pt(Teacher T)
+{
+	cout << "老师编号" << T.m_Id << "姓名" << T.m_name << "密码" << T.m_pwd << endl;
+}
 void Manager::showPerson()
 {
+	cout << "请输入查看的身份" << endl;
+	cout << "1.所有学生" << endl;
+	cout << "2.所有老师" << endl;
+	int i = 0;
+	cin >> i;
+	if (i == 1)
+	{
+		cout << "1.所有学生信息如下" << endl;
+		for_each(vs.begin(), vs.end(), ps);
+	}
+	else if (i == 2)
+	{
+		cout << "1.所有老师信息如下" << endl;
+		for_each(vt.begin(), vt.end(), pt);
+	}
 
 }
 //查看机房信息
 void Manager::showC()
 {
-
+	cout <<"机房信息如下：" << endl;
+	for (vector<Computer>::iterator it = vc.begin(); it != vc.end(); it++)
+	{
+		cout<<"机房编号："<<it->m_id <<"机房容量："<<it->m_num<<endl;
+	}
+	system("pause");
+	system("cls");
 }
 
 //清空预约记录
 void Manager::clearFile()
 {
-
+	ifstream ifs(ORDER_FILE, ios::trunc);
+	ifs.close();
+	cout<<"清空成功！" << endl;
+	system("pause");
+	system("cls");
 }
 
 //初始化容器

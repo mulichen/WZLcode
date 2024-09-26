@@ -1,5 +1,9 @@
 #pragma once
 #include"Identity.h"
+#include<vector>
+#include"computer.h"
+#include"globallfile.h"
+#include<fstream>
 class Student: public Identity
 {
 public:
@@ -17,6 +21,14 @@ public:
 
 	//查看全部预约
 	void shoeAllOrder();
+
+	//取消预约
+	void cancelOrder();
+
+	//机房容器
+	vector<Computer>vc;
+
+
 	//学生学号
 	int m_Id;
 };

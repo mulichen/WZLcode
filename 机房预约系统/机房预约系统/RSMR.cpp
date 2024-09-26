@@ -17,7 +17,8 @@ void menu()
 	cout << "输入您的选择:" << endl;
 }
 
-void  manager(Identity* manager)
+//管理员模块
+void  manager(Identity* &manager)
 {
 	while (1)
 	{
@@ -40,6 +41,7 @@ void  manager(Identity* manager)
 			man->clearFile();
 			break;
 		default:
+			delete manager;
 			cout << "注销成功" << endl;
 			system("pause");
 			system("cls");
@@ -47,6 +49,40 @@ void  manager(Identity* manager)
 		}
 	}
 }
+
+//学生模块
+void student(Identity* &student)
+{
+	while (1)
+	{
+		student->opermenu();
+		Student* stu = (Student*)student;
+		int i = 0;
+		cin >> i;
+		switch (i)
+		{
+		case 1:
+			stu->applyOrder();
+			break;
+		case 2:
+			stu->showMyOrder();
+			break;
+		case 3:
+			stu->shoeAllOrder();
+			break;
+		case 4:
+			stu->cancelOrder();
+			break;
+		default:
+			delete student;
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+		}
+	}
+}
+
 
 void loginIn(string filename, int type)
 {
@@ -85,6 +121,7 @@ void loginIn(string filename, int type)
 			}
 		}
 		person = new Student(id, name, pwd);
+		student(person);
 	}
 	else if (type == 2)
 	{

@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 #include<string>
+#include<algorithm>
 class Identity
 {
 public:

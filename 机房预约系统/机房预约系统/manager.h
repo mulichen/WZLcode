@@ -5,6 +5,7 @@
 #include"student.h"
 #include"teacher.h"
 #include<vector>
+#include"computer.h"
 class Manager:public Identity
 {
 public:
@@ -34,6 +35,9 @@ public:
 
 	//老师容器
 	vector<Teacher>vt;
+
+	//机房容器
+	vector<Computer>vc;
 
 	//判断重复
 	bool checkrepeat(int id, int pty);
