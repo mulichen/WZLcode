@@ -40,5 +40,5 @@ public:
 	vector<Computer>vc;
 
 	//≈–∂œ÷ÿ∏¥
-	bool checkrepeat(int id, int pty);
+	bool checkrepeat(string id, int pty);
 };

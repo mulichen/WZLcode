@@ -2,11 +2,11 @@
 #include"teacher.h"
 Teacher::Teacher()
 {
-	this->m_Id = 0; // 显式初始化为0
+	this->m_Id = ""; // 显式初始化为0
 	this->m_name = ""; // 如果是string类型，可以初始化为空字符串
 	this->m_pwd = ""; // 同样初始化密码为空字符串
 }
-Teacher::Teacher(int ID, string name, string pwd)
+Teacher::Teacher(string ID, string name, string pwd)
 {
 	this->m_Id = ID;
 	this->m_name = name;

@@ -95,7 +95,7 @@ void loginIn(string filename, int type)
 		ifs.close();
 		return;
 	}
-	int id=0;
+	string id="";
 	string name;
 	string pwd;
 	if (type == 1)
@@ -107,7 +107,7 @@ void loginIn(string filename, int type)
 		cin >> name;
 		cout << "ÇëÊäÈëÃÜÂë" << endl;
 		cin >> pwd;
-		int fid = 0;
+		string fid ="";
 		string fname;
 		string fpwd;
 		while (ifs >> fid && ifs >> fname && ifs >> fpwd)
@@ -132,7 +132,7 @@ void loginIn(string filename, int type)
 		cin >> name;
 		cout << "ÇëÊäÈëÃÜÂë" << endl;
 		cin >> pwd;
-		int fid = 0;
+		string fid = "";
 		string fname;
 		string fpwd;
 		while (ifs >> fid && ifs >> fname && ifs >> fpwd)

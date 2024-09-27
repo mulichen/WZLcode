@@ -4,7 +4,7 @@ class Teacher : public Identity
 {
 public:
 	Teacher();
-	Teacher(int ID, string name, string pwd);
+	Teacher(string ID, string name, string pwd);
 	~Teacher();
 	//≤Àµ•
 	virtual void opermenu();
@@ -16,5 +16,5 @@ public:
 	void validOrder();
 
 	//ΩÃ ¶±‡∫≈
-	int m_Id;
+	string m_Id;
 };

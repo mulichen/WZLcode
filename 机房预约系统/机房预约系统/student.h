@@ -4,11 +4,12 @@
 #include"computer.h"
 #include"globallfile.h"
 #include<fstream>
+#include"orderfile.h"
 class Student: public Identity
 {
 public:
 	Student();
-	Student(int ID,string name, string pwd);
+	Student(string ID,string name, string pwd);
 	~Student();
 	//菜单
 	virtual void opermenu();
@@ -30,5 +31,5 @@ public:
 
 
 	//学生学号
-	int m_Id;
+	string m_Id;
 };

@@ -71,7 +71,7 @@ void Manager::AddPerson()
 	ofstream ofs;
 	ofs.open(filename, ios::out | ios::app);
 	cout << p << endl;
-	int id = 0;
+	string id = "";
 	cin >> id;
 	string name;
 	cout << "ÇëÊäÈëÐÕÃû" << endl;
@@ -194,7 +194,7 @@ void Manager::intvector()
 }
 
 //¼ì²âÖØ¸´
-bool Manager::checkrepeat(int id, int pty)
+bool Manager::checkrepeat(string id, int pty)
 {
 	if (pty == 1)
 	{
