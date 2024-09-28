@@ -83,7 +83,32 @@ void student(Identity* &student)
 	}
 }
 
-
+//老师模块
+void teacher(Identity*& teacher)
+{
+	while (1)
+	{
+		teacher->opermenu();
+		Teacher* tea = (Teacher*)teacher;
+		int i = 0;
+		cin >> i;
+		switch (i)
+		{
+		case 1:
+			tea->shoeAllOrder();
+			break;
+		case 2:
+			tea->validOrder();
+			break;
+		default:
+			delete teacher;
+			cout << "注销成功" << endl;
+			system("pause");
+			system("cls");
+			return;
+		}
+	}
+}
 void loginIn(string filename, int type)
 {
 	Identity* person = nullptr;
@@ -117,11 +142,11 @@ void loginIn(string filename, int type)
 				cout << "身份验证成功" << endl;
 				system("pause");
 				system("cls");
-				break;
+				person = new Student(id, name, pwd);
+				student(person);
+				return;
 			}
 		}
-		person = new Student(id, name, pwd);
-		student(person);
 	}
 	else if (type == 2)
 	{
@@ -142,10 +167,11 @@ void loginIn(string filename, int type)
 				cout << "身份验证成功" << endl;
 				system("pause");
 				system("cls");
-				break;
+				person = new Teacher(id, name, pwd);
+				teacher(person);
+				return;
 			}
 		}
-		person = new Teacher(id, name, pwd);
 	}
 	else if (type == 3)
 	{
@@ -163,13 +189,15 @@ void loginIn(string filename, int type)
 				cout << "身份验证成功" << endl;
 				system("pause");
 				system("cls");
-				break;
+				person = new Manager(name, pwd);
+				manager(person);
+				return;
 			}
 		}
-		person = new Manager(name, pwd);
-		manager(person);
 	}
 	cout<<"身份验证失败" << endl;
 	ifs.close();
+	system("pause");
+	system("cls");
 }
 

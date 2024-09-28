@@ -25,6 +25,9 @@ int main()
 			system("pause");
 			return 0;
 		default:
+			cout << "ÊäÈë´íÎó£¡" << endl;
+			system("pause");
+			system("cls");
 			break;
 		}
 	}

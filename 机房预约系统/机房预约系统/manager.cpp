@@ -38,7 +38,7 @@ void Manager::opermenu()
 	cout << "\t|                            |\n";
 	cout << "\t|          2.查看账号        |\n";
 	cout << "\t|                            |\n";
-	cout << "\t|          3.查看预约        |\n";
+	cout << "\t|          3.查看机房        |\n";
 	cout << "\t|                            |\n";
 	cout << "\t|          4.清空预约        |\n";
 	cout << "\t|                            |\n";
@@ -51,7 +51,7 @@ void Manager::opermenu()
 //添加账号
 void Manager::AddPerson()
 {
-	cout << "请输入添加人身份" << endl;
+	cout << "请输入添加人身份：" << endl;
 	cout << "  1.学生" << endl;
 	cout << "  2.老师" << endl;
 	int i = 0;
@@ -109,11 +109,11 @@ void Manager::AddPerson()
 //查看账号
 void ps(Student S)
 {
-	cout << "学生编号" << S.m_Id<<"姓名"<<S.m_name<<"密码" <<S.m_pwd<< endl;
+	cout << "学生编号：" << S.m_Id << " " << "姓名："<< S.m_name << " " << "密码：" << S.m_pwd << endl;
 }
 void pt(Teacher T)
 {
-	cout << "老师编号" << T.m_Id << "姓名" << T.m_name << "密码" << T.m_pwd << endl;
+	cout << "老师编号：" << T.m_Id << " " << "姓名：" << T.m_name << " " << "密码：" << T.m_pwd << endl;
 }
 void Manager::showPerson()
 {
@@ -124,13 +124,17 @@ void Manager::showPerson()
 	cin >> i;
 	if (i == 1)
 	{
-		cout << "1.所有学生信息如下" << endl;
+		cout << "1.所有学生信息如下：" << endl;
 		for_each(vs.begin(), vs.end(), ps);
+		system("pause");
+		system("cls");
 	}
 	else if (i == 2)
 	{
-		cout << "1.所有老师信息如下" << endl;
+		cout << "1.所有老师信息如下：" << endl;
 		for_each(vt.begin(), vt.end(), pt);
+		system("pause");
+		system("cls");
 	}
 
 }
@@ -149,8 +153,8 @@ void Manager::showC()
 //清空预约记录
 void Manager::clearFile()
 {
-	ifstream ifs(ORDER_FILE, ios::trunc);
-	ifs.close();
+	ofstream ofs(ORDER_FILE, ios::trunc);
+	ofs.close();
 	cout<<"清空成功！" << endl;
 	system("pause");
 	system("cls");

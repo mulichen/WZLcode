@@ -142,26 +142,36 @@ void Student::showMyOrder()
 void Student::shoeAllOrder()
 {
 	orderFile of;
-	for (vector<vector<string>>::iterator it = of.vo.begin(); it != of.vo.end(); it++)
+	if (of.m_size == 0)
 	{
-		vector <string>::iterator i = (*it).begin();
-		cout << "学号：" << *i << " " << "姓名：" << *(i + 1) << " " << "预约日期，周" << *(i + 2) << " " << "时段：" << (*(i + 3) == "1" ? "上午" : "下午") << " " << "机房：" << *(i + 4) << " ";
-		string status = "状态：";
-		if (*(i + 5) == "1")
+		cout << "无预约记录" << endl;
+		system("pause");
+		system("cls");
+		return;
+	}
+	else
+	{
+		for (vector<vector<string>>::iterator it = of.vo.begin(); it != of.vo.end(); it++)
 		{
-			cout << status + "预约中" << endl;
-		}
-		else if (*(i + 5) == "2")
-		{
-			cout << status + "预约成功" << endl;
-		}
-		else if (*(i + 5) == "-1")
-		{
-			cout << status + "审核未通过！预约失败" << endl;
-		}
-		else
-		{
-			cout << status + "预约取消" << endl;
+			vector <string>::iterator i = (*it).begin();
+			cout << "学号：" << *i << " " << "姓名：" << *(i + 1) << " " << "预约日期，周" << *(i + 2) << " " << "时段：" << (*(i + 3) == "1" ? "上午" : "下午") << " " << "机房：" << *(i + 4) << " ";
+			string status = "状态：";
+			if (*(i + 5) == "1")
+			{
+				cout << status + "预约中" << endl;
+			}
+			else if (*(i + 5) == "2")
+			{
+				cout << status + "预约成功" << endl;
+			}
+			else if (*(i + 5) == "-1")
+			{
+				cout << status + "审核未通过！预约失败" << endl;
+			}
+			else
+			{
+				cout << status + "预约取消" << endl;
+			}
 		}
 	}
 	system("pause");
@@ -187,8 +197,6 @@ void Student::cancelOrder()
 			vector <string>::iterator i = (*it).begin();
 			if (*i == this->m_Id)
 			{
-				/*(*it).pop_back();
-				(*it).push_back("3");*/
 				if (*(i + 5) == "1" || *(i + 5) == "2")
 				{
 					cout << ++num << ",";
